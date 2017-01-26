@@ -1,0 +1,21 @@
+<!doctype HTML>
+<meta charset="utf-8">
+<head>
+</head>
+<body>
+<script language="javascript">
+var click = 0
+var buttonnode= document.createElement('input');
+buttonnode.setAttribute('type','button');
+buttonnode.setAttribute('name','sal');
+buttonnode.setAttribute('value','sal');
+cell1.appendChild(buttonnode);
+buttonnode.onclick(click + 1);
+for (click === 5){
+  console.log("You have clicked " + click + " times.");
+}
+</script>
+<header><h1>Go Away</h1></header>
+<p>This site is for testing purposes only, if you find it please ignore as there will be nothing of use on it.</p>
+</body>
+</html>
